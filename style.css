@@ -1,0 +1,55 @@
+body{
+    font-family:sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.context{
+    text-align: center;
+    color: rgb(5, 58, 31);
+    position: relative;
+    top: 10px;
+}
+input{
+    padding: 15px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 10px;
+    border: solid rgb(5, 58, 31);
+    margin-top: 20px;
+}
+form{
+    margin-bottom: 10px;
+}
+button{
+    background:rgb(5, 58, 31);
+    padding: 18px;
+    width: 200px;
+    border:none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.quickteller{
+    background: linear-gradient(0deg,rgb(168, 167, 167),rgb(216, 216, 216));
+    padding: 13%;
+    padding-bottom: 18%;
+    border-radius: 50px;
+    box-shadow: inset 5px 5px 40px black;
+}
+button:hover{
+    cursor: pointer;
+    background: rgb(19, 82, 49);
+}
+.horoscope{
+    color:rgb(220, 248, 95);
+    font-size: 10px;
+    background: linear-gradient(0deg,rgb(19, 82, 49),rgb(19, 82, 49));
+    background-size: cover;
+    border-radius: 10px 10px 0px 10px;
+}
+#dob{
+    font-weight: bold;
+    opacity: 0.9;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quickteller App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+<div class="quickteller">
+  <div class="context">
+    <h1>Quickteller helps give a quick <br> update of your horoscope</h1>
+  </div>  
+  <div class="birdthday">
+    <form action="#">
+        <p id="dob">Input your date of birth to get your heroscope</p>
+        <input type="number" id="month" placeholder="Enter month here" min="1" max="12" required>
+        <input type="number" id="date" placeholder="Enter date here" min="1" max="31" required>
+        <button type="submit" id="btn" onclick="getHoroscope()">View heroscope</button>
+    </form>
+  </div>
+  <div class="horoscope" id="sc">
+  <h2 id="horo"></h2>
+  </div>
+</div>
+</body>
+</html>
